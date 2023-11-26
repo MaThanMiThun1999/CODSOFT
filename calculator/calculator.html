@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./calculator.css" />
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/calculator--v1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" />
+  </head>
+  <body>
+    <div class="android-small-1">
+      <div class="android-small-1-inner">
+        <div class="group-child14"></div>
+      </div>
+      <input
+        class="android-small-1-child"
+        id="digi"
+        placeholder="Enter Value "
+        type="text"
+        oninput="validateInput(this)"
+      />
+
+      <div class="group-parent">
+        <button class="rectangle-parent15" id="c"  onclick="clearInput()">
+          <div class="group-child15"></div>
+          <div class="div">c</div>
+        </button>
+        <button class="rectangle-parent16" id="larrow" onclick="backspace()">
+          <div class="group-child15"></div>
+          <div class="div">&lt;-</div>
+        </button>
+        <button class="rectangle-parent17" id="uthree"  onclick="appendToInput('**3')">
+          <div class="group-child15"></div >
+          <div class="div1">^</div>
+          <div class="div2">3</div>
+        </button>
+        <button class="rectangle-parent18" id="+" onclick="appendToInput('+')">
+          <div class="group-child15"></div>
+          <div class="div">+</div>
+        </button>
+      </div>
+      <div class="group-container">
+        <button class="rectangle-parent15" onclick="appendToInput('9')">
+          <div class="group-child15"></div>
+          <div class="div">9</div>
+        </button>
+        <button class="rectangle-parent16" onclick="appendToInput('8')">
+          <div class="group-child15"></div>
+          <div class="div">8</div>
+        </button>
+        <button class="rectangle-parent17" onclick="appendToInput('7')">
+          <div class="group-child15"></div>
+          <div class="div">7</div>
+        </button>
+        <button class="rectangle-parent18" onclick="appendToInput('-')">
+          <div class="group-child15"></div>
+          <div class="div">-</div>
+        </button>
+      </div>
+      <div class="group-parent1">
+        <button class="rectangle-parent15" onclick="appendToInput('6')">
+          <div class="group-child15"></div>
+          <div class="div">6</div>
+        </button>
+        <button class="rectangle-parent16" onclick="appendToInput('5')">
+          <div class="group-child15"></div>
+          <div class="div">5</div>
+        </button>
+        <button class="rectangle-parent17" onclick="appendToInput('4')">
+          <div class="group-child15"></div>
+          <div class="div">4</div>
+        </button>
+        <div class="rectangle-parent26" onclick="appendToInput('*')">
+          <div class="group-child15"></div>
+          <button class="button">*</button>
+        </div>
+      </div>
+      <div class="group-parent2">
+        <button class="rectangle-parent15" onclick="appendToInput('3')">
+          <div class="group-child15"></div>
+          <div class="div">3</div>
+        </button>
+        <button class="rectangle-parent16" onclick="appendToInput('2')">
+          <div class="group-child15"></div>
+          <div class="div">2</div>
+        </button>
+        <button class="rectangle-parent17" onclick="appendToInput('1')">
+          <div class="group-child15"></div>
+          <div class="div">1</div>
+        </button>
+        <button class="rectangle-parent18"  onclick="appendToInput('/')">
+          <div class="group-child15"></div>
+          <div class="div">/</div>
+        </button>
+      </div>
+      <div class="group-parent3">
+        <button class="rectangle-parent15" onclick="appendToInput('0')">
+          <div class="group-child15"></div>
+          <div class="div">0</div>
+        </button>
+        <button class="rectangle-parent16" onclick="appendToInput('.')">
+          <div class="group-child15"></div>
+          <div class="div">.</div>
+        </button>
+        <button class="rectangle-parent33" onclick="calculateResult()">
+          <div class="group-child32"></div>
+          <div class="div17">=</div>
+        </button>
+      </div>
+      <div class="designed-by-mathanmithun-container">
+        <span class="designed-by-mathanmithun-container1">
+          <span>Designed By </span>
+          <a href="https://mathanmithun.neocities.org/mathan_mithun/" style="text-decoration: none;"><span class="mathanmithun">MaThanMithun</span></a>
+        </span>
+      </div>
+    </div>
+
+    <script src="./calculator.js"></script>
+      </body>
+</html>
