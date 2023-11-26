@@ -1,0 +1,249 @@
+.group-child14 {
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 170px);
+  background: linear-gradient(
+    180deg,
+    rgba(219, 201, 201, 0.76),
+    #a5baab 94.38%
+  );
+  border: 10px solid var(--color-black);
+  box-sizing: border-box;
+  width: 340px;
+  height: 609px;
+  border-radius: 10px;
+}
+.android-small-1-inner {
+  position: absolute;
+  top: 21px;
+  left: calc(50% - 160px);
+  width: 320px;
+  height: 589px;
+}
+
+.android-small-1-child{
+  font-size: 55px;
+  font-family: Technology-Bold;
+  font-weight: bold;
+}
+
+
+.android-small-1-child,
+.group-child15 {
+  border: 5px solid var(--color-black);
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 39.5px;
+  left: calc(50% - 152.5px);
+  box-sizing: border-box;
+  width: 305px;
+  height: 105px;
+  border-radius: 10px;
+}
+.group-child15 {
+  top: -2px;
+  left: calc(50% - 34.5px);
+  border: 2px solid var(--color-black);
+  width: 69px;
+  height: 69px;
+}
+.rectangle-parent15 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 148px);
+  width: 65px;
+  height: 65px;
+}
+.div {
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 14.5px);
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 36px;
+}
+.rectangle-parent16 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 71px);
+  width: 65px;
+  height: 65px;
+}
+.div1,
+.div2 {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 17.5px);
+  font-size: 48px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 28px;
+  height: 36px;
+}
+.div2 {
+  top: 0;
+  left: calc(50% - 0.5px);
+  font-size: 24px;
+}
+.rectangle-parent17,
+.rectangle-parent18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: calc(50% + 6px);
+  width: 65px;
+  height: 65px;
+}
+.rectangle-parent18 {
+  left: calc(50% + 83px);
+}
+.group-container,
+.group-parent {
+  position: absolute;
+  top: 167px;
+  left: calc(50% - 148px);
+  width: 296px;
+  height: 65px;
+}
+.group-container {
+  top: 250px;
+}
+.button,
+.rectangle-button {
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+}
+.rectangle-button {
+  border: 2px solid var(--color-black);
+  background-color: var(--color-gainsboro-100);
+  top: -2px;
+  left: calc(50% - 34.5px);
+  box-sizing: border-box;
+  width: 69px;
+  height: 69px;
+}
+.button {
+  border: 0;
+  background-color: transparent;
+  top: 22px;
+  left: calc(50% - 14.5px);
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 36px;
+}
+.rectangle-parent26 {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 83px);
+  width: 65px;
+  height: 65px;
+}
+.group-child32,
+.group-parent1,
+.group-parent2 {
+  position: absolute;
+  top: 333px;
+  left: calc(50% - 148px);
+  width: 296px;
+  height: 65px;
+}
+.group-child32,
+.group-parent2 {
+  top: 416px;
+}
+.group-child32 {
+  top: -2px;
+  left: calc(50% - 73px);
+  background-color: var(--color-gainsboro-100);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 146px;
+  height: 69px;
+}
+.div17 {
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 14px);
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 36px;
+}
+.rectangle-parent33 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: calc(50% + 6px);
+  width: 142px;
+  height: 65px;
+}
+.group-parent3 {
+  position: absolute;
+  top: 499px;
+  left: calc(50% - 148px);
+  width: 296px;
+  height: 65px;
+}
+.mathanmithun {
+  font-weight: 800;
+}
+.designed-by-mathanmithun-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.designed-by-mathanmithun-container {
+  position: absolute;
+  top: 587px;
+  left: calc(50% - 112px);
+  display: flex;
+  align-items: center;
+  width: 223px;
+  height: 13px;
+}
+.android-small-1 {
+  position: relative;
+  background: linear-gradient(180deg, #1370fc, #32c7e8 73.82%);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
