@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik-wet-paint: "Rubik Wet Paint";
+  --font-rubik-glitch: "Rubik Glitch";
+  --font-poppins: Poppins;
+  --font-press-start-2p: "Press Start 2P";
+  --font-outfit: Outfit;
+  --font-rubik-bubbles: "Rubik Bubbles";
+
+  /* font sizes */
+  --font-size-2xs: 11px;
+  --font-size-3xl: 22px;
+  --font-size-lg: 18px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #fdfdfd;
+  --color-gray-200: #fafafa;
+  --color-gray-300: rgba(255, 255, 255, 0.9);
+  --color-gray-400: rgba(0, 0, 0, 0.79);
+  --color-gray-500: rgba(255, 255, 255, 0.8);
+  --border-and-seperator-seperator: #32344b;
+  --dark-button-1: #9da5b8;
+  --dark-dark-textcomponent: #10123d;
+  --color-purple: #900d6c;
+  --color-gainsboro: rgba(217, 217, 217, 0);
+
+  /* Gaps */
+  --gap-9xs: 4px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-8xs: 5px;
+}
+
